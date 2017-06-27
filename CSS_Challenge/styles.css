@@ -1,0 +1,20 @@
+ul {
+    font-size: 24px;
+}
+.red {
+    color: red;
+}
+.Verdana {
+    font-family: Verdana;
+}
+#orange {
+    text-align: center;
+    background-color: beige;
+    color: orange;
+}
+#blue {
+    color: blue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
