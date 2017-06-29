@@ -87,4 +87,5 @@ document.getElementById('equals').onclick = function() {
         }
     }
     document.getElementById('input-box').value = final;
+    document.getElementById('text-output').innerHTML = final;
 }

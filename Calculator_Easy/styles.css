@@ -1,0 +1,18 @@
+.squarebutton {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+.clearbutton {
+    height: 100px;
+    width: 412px;
+    font-size: 50px;
+}
+.text-input {
+    height: 50px;
+    width: 200px;
+    font-size: 50px;
+}
+.final {
+    font-size: 50px;
+}
