@@ -22,6 +22,6 @@
 .input-buttons {
     display: flex;
     justify-content: space-between;
-    padding-left: 550px;
-    padding-right: 550px;
+    padding-left: 600px;
+    padding-right: 600px;
 }
