@@ -4,14 +4,12 @@ function playC() {
     cNote.play();
 }
 $('#c').on("mousedown", playC);
-
 var dNote = document.getElementById('dAudio');
 function playD() {
     dNote.currentTime = 0;
     dNote.play();
 }
 $('#d').on("mousedown", playD);
-
 var eNote = document.getElementById('eAudio');
 $('#e').mousedown(function() {
     eNote.currentTime = 0;
@@ -22,7 +20,7 @@ $('#d').on("mousedown", playD);
 var fNote = document.getElementById('fAudio');
 $('#f').mousedown(function() {
     fNote.currentTime = 0;
-    fNote.play();
+    fNote.play(dNote);
 });
 
 var gNote = document.getElementById('gAudio');
